@@ -1,10 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(
+    to left,
+    rgb(27, 46, 99) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+}
+
 td, th {
     vertical-align: middle !important;
     text-align: center !important;
+    color: rgb(37, 179, 37) !important;
 }
 
 .input-group {
     margin: 20px 0px;
+  }
+
+.btn btn-secondary {
+    margin: 50px 0px;
 }
 
 svg {
@@ -14,4 +30,18 @@ svg {
 td:first-of-type, td:first-of-type > div {
     height: 200px;
     width: 250px;
+}
+
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SEGA LOGO FONT"), url("SEGA.woff") format("woff");
+}
+
+.niger {
+  font-family: "SEGA LOGO FONT";
+  color: #0ccac4;
+  font-weight: 100;
+  text-align: center !important;
 }
